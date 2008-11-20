@@ -60,3 +60,198 @@ h3. Size Rules and other tid-bits. ( draft 0.1 )
 The size of each snippet should not be too complex and must not have dependencies such as other libraries unless they are included within the snippet somehow.
 
 For those brief moments in life when we have no time to comment on the obivous, let us not do so but normally of course, provide proper indentation and commenting.
+
+<hr />
+
+h1. Documentation
+
+
+
+h2. browsers > cookies
+
+
+
+
+p(author). *Author:*
+
+   Unknown
+
+p(copyright). *Copyright:*
+
+Public Domain
+
+p(source). *Source:*
+
+   http://www.dustindiaz.com/top-ten-javascript/
+
+
+p(description). *Description:*
+
+
+
+      Stating the obvious here but these are common cookie 
+      getters and setters copied from Dustin Diaz's blog
+      and restyled for this collection.
+      
+
+p(example). *Example:*
+
+ <pre><code>
+
+
+ </code></pre>
+
+
+
+p(sourcelink). <b>See:</b><a href="http://githubcom/quickredfox/quickredfox-presents/tree/master/./browsers/cookies/commons.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/./browsers/cookies/commons.js</a>
+
+<hr />
+
+h2. conversions
+
+
+
+
+p(author). *Author:*
+
+   Unknown
+
+p(copyright). *Copyright:*
+
+Public Domain
+
+p(source). *Source:*
+
+   http://github.com/quickredfox/jsgouache/tree/master
+ 
+
+p(description). *Description:*
+
+
+ 
+   Decimal and Hexadecimal Conversions
+     
+
+p(example). *Example:*
+
+ <pre><code>
+ 
+   Conversions.dec2hex('255') // => 'FF'
+   Conversions.hex2dec('ff')  // => 255 
+   
+ </code></pre>
+
+
+
+p(sourcelink). <b>See:</b><a href="http://githubcom/quickredfox/quickredfox-presents/tree/master/./conversions/dec2hex_hex2dec.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/./conversions/dec2hex_hex2dec.js</a>
+
+<hr />
+
+h2. dom > builders
+
+
+
+
+p(author). *Author:*
+
+   Greg Reimer (reglib version 1.0.2)
+
+p(blog). *Blog:*
+
+     http://blogs.sun.com/greimer
+
+p(copyright). *Copyright:*
+
+Copyright 2008
+
+p(license). *License:*
+
+  Released under MIT license 
+
+p(source). *Source:*
+
+   http://code.google.com/p/reglib/
+ 
+
+p(description). *Description:*
+
+
+ 
+    name: e.g. 'div', 'div.foo', 'div#bar', 'div.foo#bar', 'div#bar.foo'
+    atts: (optional) e.g. {'href':'page.html','target':'_blank'}
+    content: (optional) either a string, or an element, or an arry of strings or elements
+     
+
+p(example). *Example:*
+
+ <pre><code>
+ // example 1
+   var myDiv = reglib.newElement('div', { id:'complex', className:'main' }, "hello this is my div!" );
+ // example 2
+   var title = "Hello World";
+   var description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+   var myComplexDiv = reglib.newElement(
+      'div#complex', 
+      { id:'colegram', className:'main parent' }, 
+         [
+            reglib.newElement('h1.child', {}, title ),
+            reglib.newElement('p.description', {}, description)
+         ]
+   );// end complex div
+ </code></pre>
+
+
+
+p(sourcelink). <b>See:</b><a href="http://githubcom/quickredfox/quickredfox-presents/tree/master/./dom/builders/reglib.newElement.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/./dom/builders/reglib.newElement.js</a>
+
+<hr />
+
+h2. xhr
+
+
+
+
+p(author). *Author:*
+
+   Peter-Paul Koch 
+
+p(blog). *Blog:*
+
+     http://www.quirksmode.org
+
+p(copyright). *Copyright:*
+
+Copyright 2008 (but free to use under no restrictions)
+
+p(source). *Source:*
+
+   http://www.quirksmode.org/js/xmlhttp.html
+
+
+p(description). *Description:*
+
+
+
+    This is the XMLHttpRequest functions originally included in the book
+    "PPK on Javascript" by  Peter-Paul Koch. They have been modified
+    to serve along this compendium's guidelines.
+
+
+p(example). *Example:*
+
+ <pre><code>
+
+   function handleRequest(req) {
+ 	   var writeroot = [some element];
+ 	   writeroot.innerHTML = req.responseText;
+   }
+
+   PPK.sendRequest('file.txt',handleRequest);
+
+ </code></pre>
+
+
+
+p(sourcelink). <b>See:</b><a href="http://githubcom/quickredfox/quickredfox-presents/tree/master/./xhr/quirksmode.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/./xhr/quirksmode.js</a>
+
+<hr />
