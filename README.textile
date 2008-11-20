@@ -67,7 +67,23 @@ h1. Documentation
 
 
 
-h2. browsers > cookies
+
+
+h2(#shortcuts). Shortcuts
+
+* <a href="#conversions">conversions</a>
+
+* <a href="#xhr">xhr</a>
+
+* <a href="#browsers_cookies">browsers > cookies</a>
+
+* <a href="#dom_builders">dom > builders</a>
+
+<hr/>
+
+
+
+h2(#browsers_cookies). browsers > cookies
 
 
 
@@ -105,9 +121,12 @@ p(example). *Example:*
 
 p(sourcelink). <b>See:</b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js</a>
 
+
+<a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
+
 <hr />
 
-h2. conversions
+h2(#conversions). conversions
 
 
 
@@ -145,9 +164,12 @@ p(example). *Example:*
 
 p(sourcelink). <b>See:</b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js</a>
 
+
+<a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
+
 <hr />
 
-h2. dom > builders
+h2(#dom_builders). dom > builders
 
 
 
@@ -204,9 +226,12 @@ p(example). *Example:*
 
 p(sourcelink). <b>See:</b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js</a>
 
+
+<a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
+
 <hr />
 
-h2. xhr
+h2(#xhr). xhr
 
 
 
@@ -253,5 +278,8 @@ p(example). *Example:*
 
 
 p(sourcelink). <b>See:</b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js</a>
+
+
+<a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
 
 <hr />
