@@ -4,7 +4,7 @@ h2. A Javascript Compendium
 
 bq. This précis aims to become a collection of great reusable self-contained mini-snippets in the artful language that is Javascript.
 
-There are numerous code conventions that I wish to impose on all items added to this collection:
+There are some conventions that I wish to impose on all items added to this collection, but if you just want to skip to a sample, try "the original":
 
 h3. Comment Conventions ( draft 0.1 )
 
