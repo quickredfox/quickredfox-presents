@@ -1,0 +1,63 @@
+h1. Quickredfox Presents:
+
+h2. A Javascript Compendium
+
+bq. This précis aims to become a collection of great reusable self-contained mini-snippets in the artful language that is Javascript.
+
+There are numerous code conventions that I wish to impose on all items added to this collection:
+
+h3. Comment Conventions ( draft 0.1 )
+
+The preamble: 
+
+<pre>
+  /*
+    Author: Author's Name
+    Copyright: Copyright Notice (optional)
+    License: License (optional)
+    Source: http://athorshomepage.com/blog (optional)
+    Description: 
+    
+        You can enter a description on a separate block
+        as long as it's properly indented like here.
+        
+        A proper description is required!
+        
+    Example:
+    (code)
+        // In this block, you can also write lots a documentation 
+        // but make sure you've read the size rules
+
+        Stating.the("Obvious") // => "Duh!"
+        
+    (code)
+  */
+</pre>
+
+h3. Containment Conventions ( draft 0.1 )
+
+The safe-wrapper:
+<pre>
+  
+  var Stating = (function(){
+    // Do whatever you want here
+    var S = {
+      the: function(string){
+        if (string.toLowerCase() == 'obvious')
+          return 'Duh!'
+        else
+          return false;
+      }
+    }
+    // Dont forget to return your whatever
+    return S;
+  })(); // important!
+  
+</pre>
+
+h3. Size Rules and other tid-bits. ( draft 0.1 ) 
+
+The size of each snippet should not be too complex and must not have dependencies such as other libraries unless they are included within the snippet somehow.
+
+For those brief moments in life when we have no time to comment on the obivous, let us not do so but normally of course, provide proper indentation and commenting.
+
