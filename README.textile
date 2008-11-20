@@ -60,4 +60,3 @@ h3. Size Rules and other tid-bits. ( draft 0.1 )
 The size of each snippet should not be too complex and must not have dependencies such as other libraries unless they are included within the snippet somehow.
 
 For those brief moments in life when we have no time to comment on the obivous, let us not do so but normally of course, provide proper indentation and commenting.
-
