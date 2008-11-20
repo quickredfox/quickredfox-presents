@@ -30,7 +30,7 @@ The preamble:
 
         Stating.the("Obvious") // => "Duh!"
         
-    (code)
+    (end)
   */
 </pre>
 

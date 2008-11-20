@@ -17,7 +17,7 @@
 
      Stating.the("Obvious") // => "Duh!"
      
- (code)
+ (end)
 */
 
 var Stating = (function(){

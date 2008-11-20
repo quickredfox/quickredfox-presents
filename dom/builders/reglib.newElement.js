@@ -26,12 +26,7 @@
             reglib.newElement('p.description', {}, description)
          ]
    );// end complex div
- (code)
-*/
-/*
-
-
-
+ (end)
 */
 
 var reglib = (function() {
