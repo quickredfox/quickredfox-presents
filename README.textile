@@ -70,7 +70,7 @@ h2. Why?
       
 h3. Because:
 
-h4. Why to I impose a style of commenting block?
+h4. Why do I impose a style of commenting block?
 
  * Because it makes me feel special, and I also parse it to generate this README
  * Because if I dont, I dont really have an edge on the disqualifying process
