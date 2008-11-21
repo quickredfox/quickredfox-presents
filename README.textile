@@ -158,7 +158,7 @@ p(example). *Example:*
 
 
 
-p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js</a></small>
+p(sourcelink). <small><b>See this file in project @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
@@ -201,7 +201,7 @@ p(example). *Example:*
 
 
 
-p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js</a></small>
+p(sourcelink). <small><b>See this file in project @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
@@ -263,7 +263,7 @@ p(example). *Example:*
 
 
 
-p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js</a></small>
+p(sourcelink). <small><b>See this file in project @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
@@ -321,7 +321,7 @@ p(example). *Example:*
 
 
 
-p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js</a></small>
+p(sourcelink). <small><b>See this file in project @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
@@ -374,7 +374,7 @@ p(example). *Example:*
 
 
 
-p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js</a></small>
+p(sourcelink). <small><b>See this file in project @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
