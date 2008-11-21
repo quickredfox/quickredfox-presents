@@ -121,7 +121,7 @@ h2(#shortcuts). Shortcuts
 h2. <a name="browsers_cookies">Browsers > cookies</a>
 
 
-comment
+
 
 p(author). *Author:*
 
@@ -154,7 +154,7 @@ p(example). *Example:*
    CookieMonster.erase('mycookie')
 
  </code></pre>
-end
+
 
 
 p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js</a></small>
@@ -167,7 +167,7 @@ p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.co
 h2. <a name="conversions">Conversions</a>
 
 
-comment
+
 
 p(author). *Author:*
 
@@ -197,7 +197,7 @@ p(example). *Example:*
    Conversions.hex2dec('ff')  // => 255 
    
  </code></pre>
-end
+
 
 
 p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js</a></small>
@@ -210,7 +210,7 @@ p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.co
 h2. <a name="dom_builders">Dom > builders</a>
 
 
-comment
+
 
 p(author). *Author:*
 
@@ -259,7 +259,7 @@ p(example). *Example:*
          ]
    );// end complex div
  </code></pre>
-end
+
 
 
 p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js</a></small>
@@ -272,7 +272,7 @@ p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.co
 h2. <a name="file">File</a>
 
 
-comment
+
 
 p(author). *Author:*
 
@@ -317,7 +317,7 @@ p(example). *Example:*
    File.platformString('/javascripts/bin.js',4) // => undefined
    
  </code></pre>
-end
+
 
 
 p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js</a></small>
@@ -330,7 +330,7 @@ p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.co
 h2. <a name="xhr">Xhr</a>
 
 
-comment
+
 
 p(author). *Author:*
 
@@ -370,7 +370,7 @@ p(example). *Example:*
    PPK.sendRequest('file.txt',handleRequest);
 
  </code></pre>
-end
+
 
 
 p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js</a></small>
