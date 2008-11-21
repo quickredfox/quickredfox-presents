@@ -103,7 +103,7 @@ h1. Documentation
 
 
 
-h2(#shortcuts). Shortcuts
+<a name="shortcuts" id="shortcuts"><h2>Shortcuts</h2></a>
 
 * <a href="#conversions">Conversions</a>
 
