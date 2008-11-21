@@ -1,3 +1,4 @@
+(<a href="#shortcuts" >&darr; Skip to Shortcuts Menu &darr;</a>)
 h1. Quickredfox Presents:
 
 h2. A Javascript Compendium
