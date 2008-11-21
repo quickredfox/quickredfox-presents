@@ -118,7 +118,7 @@ h2(#shortcuts). Shortcuts
 
 
 
-h2(#browsers_cookies). Browsers > cookies
+h2. <a name="browsers_cookies">Browsers > cookies</a>
 
 
 comment
@@ -164,7 +164,7 @@ p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.co
 
 <hr />
 
-h2(#conversions). Conversions
+h2. <a name="conversions">Conversions</a>
 
 
 comment
@@ -207,7 +207,7 @@ p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.co
 
 <hr />
 
-h2(#dom_builders). Dom > builders
+h2. <a name="dom_builders">Dom > builders</a>
 
 
 comment
@@ -269,7 +269,7 @@ p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.co
 
 <hr />
 
-h2(#file). File
+h2. <a name="file">File</a>
 
 
 comment
@@ -327,7 +327,7 @@ p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.co
 
 <hr />
 
-h2(#xhr). Xhr
+h2. <a name="xhr">Xhr</a>
 
 
 comment
