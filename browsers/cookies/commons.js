@@ -1,4 +1,4 @@
-/*
+/*comment
  Author:    Unknown
  Copyright: Public Domain
  Source:    http://www.dustindiaz.com/top-ten-javascript/
@@ -12,9 +12,12 @@
  Example:
  (code)
 
+   CookieMonster.set('mycookie','my value')
+   CookieMonster.get('mycookie')
+   CookieMonster.erase('mycookie')
 
  (end)
-*/
+end*/
 var CookieMonster = (function(){
    var CM = {
       get: function( name ) {

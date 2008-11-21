@@ -1,4 +1,4 @@
-/*
+/*comment
  Author:    Peter-Paul Koch 
  Blog:      http://www.quirksmode.org
  Copyright: Copyright 2008 (but free to use under no restrictions)
@@ -21,7 +21,7 @@
    PPK.sendRequest('file.txt',handleRequest);
 
  (end)
-*/
+end*/
 
 var PPK = (function() {
     var PPK = {

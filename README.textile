@@ -6,12 +6,12 @@ bq. This précis aims to become a collection of great reusable self-contained mi
 
 There are some conventions that I wish to impose on all items added to this collection, but if you just want to skip to a sample, try "the original":http://github.com/quickredfox/quickredfox-presents/tree/master%2Foriginal.js?raw=true
 
-h3. Comment Conventions ( draft 0.1 )
+h3. Comment Conventions ( draft 0.2 )
 
 The preamble: 
 
 <pre>
-  /*
+  /*comment
     Author: Author's Name
     Copyright: Copyright Notice (optional)
     License: License (optional)
@@ -31,10 +31,10 @@ The preamble:
         Stating.the("Obvious") // => "Duh!"
         
     (end)
-  */
+  end*/
 </pre>
 
-h3. Containment Conventions ( draft 0.1 )
+h3. Containment Conventions ( draft 0.2 )
 
 The safe-wrapper:
 <pre>
@@ -55,12 +55,45 @@ The safe-wrapper:
   
 </pre>
 
-h3. Size Rules and other tid-bits. ( draft 0.1 ) 
+h3. Size Rules and other tid-bits. ( draft 0.2 ) 
 
 The size of each snippet should not be too complex and must not have dependencies such as other libraries unless they are included within the snippet somehow.
 
 For those brief moments in life when we have no time to comment on the obivous, let us not do so but normally of course, provide proper indentation and commenting.
 
+h2. Why? 
+
+   You may have question as to why? Why this? Why this way? Why anything? Well the answer to all of those is the obviously predictable answer of "because".
+   
+   But I do admit nonethless, that imposing other people to abide by some of your rules requires a bit of an explanation...
+      
+h3. Because:
+
+h4. Why to I impose a style of commenting block?
+
+ * Because it makes me feel special, and I also parse it to generate this README
+ * Because if I dont, I dont really have an edge on the disqualifying process
+ * It's semi "Natural Docs":http://www.naturaldocs.org/ compatible
+ * Some of you people suck like big-time n00bs and act like you're 5 years old
+ 
+h4. Why do I have to wrap the code this way blah blah blah...
+   
+ * That's how this man likes his module pattern.
+ * I also need it to be this way for eventual plans (to be continued...)
+
+h4. Why do you not include your README generator in the repository?
+   
+ * For now, it's MY generator and no matter how half-assed the code looks, it works. 
+ * It's MY generator because I want to see yours and then I'll show you mine... that's how it works!
+
+h4. Who are you speaking to?
+   
+ * No one!, I'm speaking to myself through a magical thing we call the internets, there's 1 watcher to this project and it's me!
+ 
+h4.  What is the purpose of all this nonsense?!?!
+
+ * To just things let us be just, like Kahlil Gibran said: "let there be no purpose in friendship save the deepening of the spirit." s/friendship/collaboration/i
+ 
 <hr />
 
 h1. Documentation
@@ -71,22 +104,24 @@ h1. Documentation
 
 h2(#shortcuts). Shortcuts
 
-* <a href="#conversions">conversions</a>
+* <a href="#conversions">Conversions</a>
 
-* <a href="#xhr">xhr</a>
+* <a href="#xhr">Xhr</a>
 
-* <a href="#browsers_cookies">browsers > cookies</a>
+* <a href="#browsers_cookies">Browsers > cookies</a>
 
-* <a href="#dom_builders">dom > builders</a>
+* <a href="#dom_builders">Dom > builders</a>
+
+* <a href="#file">File</a>
 
 <hr/>
 
 
 
-h2(#browsers_cookies). browsers > cookies
+h2(#browsers_cookies). Browsers > cookies
 
 
-
+comment
 
 p(author). *Author:*
 
@@ -112,24 +147,27 @@ p(description). *Description:*
 
 p(example). *Example:*
 
- <pre><code>
+ <pre style="background:#000;color:#fff;"><code>
 
+   CookieMonster.set('mycookie','my value')
+   CookieMonster.get('mycookie')
+   CookieMonster.erase('mycookie')
 
  </code></pre>
+end
 
 
-
-p(sourcelink). <b>See:</b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js</a>
+p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/browsers/cookies/commons.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
 
 <hr />
 
-h2(#conversions). conversions
+h2(#conversions). Conversions
 
 
-
+comment
 
 p(author). *Author:*
 
@@ -153,26 +191,26 @@ p(description). *Description:*
 
 p(example). *Example:*
 
- <pre><code>
+ <pre style="background:#000;color:#fff;"><code>
  
    Conversions.dec2hex('255') // => 'FF'
    Conversions.hex2dec('ff')  // => 255 
    
  </code></pre>
+end
 
 
-
-p(sourcelink). <b>See:</b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js</a>
+p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/conversions/dec2hex_hex2dec.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
 
 <hr />
 
-h2(#dom_builders). dom > builders
+h2(#dom_builders). Dom > builders
 
 
-
+comment
 
 p(author). *Author:*
 
@@ -206,7 +244,7 @@ p(description). *Description:*
 
 p(example). *Example:*
 
- <pre><code>
+ <pre style="background:#000;color:#fff;"><code>
  // example 1
    var myDiv = reglib.newElement('div', { id:'complex', className:'main' }, "hello this is my div!" );
  // example 2
@@ -221,20 +259,78 @@ p(example). *Example:*
          ]
    );// end complex div
  </code></pre>
+end
 
 
-
-p(sourcelink). <b>See:</b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js</a>
+p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/dom/builders/reglib.newElement.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
 
 <hr />
 
-h2(#xhr). xhr
+h2(#file). File
 
 
+comment
 
+p(author). *Author:*
+
+    Lee Carmichael lecar_red@yahoo.com
+
+p(blog). *Blog:*
+
+     http://blogs.sun.com/greimer
+
+p(copyright). *Copyright:*
+
+Copyright (c) 2005 Lee Carmichael. All rights reserved.
+
+p(license). *License:*
+
+  Artistic License
+
+p(source). *Source:*
+
+   http://www.openjsan.org
+ 
+
+p(description). *Description:*
+
+
+ 
+    File.Basename - A library that provides unix-like tools 'dirname' and 'basename'
+    Grabbed from JSAN, modified to fit within this collection's guidelines.
+     
+
+p(example). *Example:*
+
+ <pre style="background:#000;color:#fff;"><code>
+   File.basename('/javascripts/bin.js',2) // => bin.js
+   File.dirname('/javascripts/bin.js',2) // => /javascripts
+   File.path('/javascripts/bin.js',1) // => /javascripts/bin.js
+   File.platform('/javascripts/bin.js',2) // => 2
+   File.platformString('/javascripts/bin.js',2) // => Macintosh
+   File.platformString('/javascripts/bin.js',1) // => Windows
+   File.platformString('/javascripts/bin.js',2) // => Macintosh
+   File.platformString('/javascripts/bin.js',3) // => UNIX
+   File.platformString('/javascripts/bin.js',4) // => undefined
+   
+ </code></pre>
+end
+
+
+p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js</a></small>
+
+
+<a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
+
+<hr />
+
+h2(#xhr). Xhr
+
+
+comment
 
 p(author). *Author:*
 
@@ -264,7 +360,7 @@ p(description). *Description:*
 
 p(example). *Example:*
 
- <pre><code>
+ <pre style="background:#000;color:#fff;"><code>
 
    function handleRequest(req) {
  	   var writeroot = [some element];
@@ -274,10 +370,10 @@ p(example). *Example:*
    PPK.sendRequest('file.txt',handleRequest);
 
  </code></pre>
+end
 
 
-
-p(sourcelink). <b>See:</b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js</a>
+p(sourcelink). <small><b>See this project's file @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/xhr/quirksmode.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>

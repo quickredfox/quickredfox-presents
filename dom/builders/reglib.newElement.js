@@ -1,4 +1,4 @@
-/*
+/*comment
  Author:    Greg Reimer (reglib version 1.0.2)
  Blog:      http://blogs.sun.com/greimer
  Copyright: Copyright 2008
@@ -27,7 +27,7 @@
          ]
    );// end complex div
  (end)
-*/
+end*/
 
 var reglib = (function() {
     var r = {

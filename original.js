@@ -1,4 +1,4 @@
-/*
+/*comment
  Author: Author's Name
  Copyright: Copyright Notice (optional)
  License: License (optional)
@@ -18,7 +18,7 @@
      Stating.the("Obvious") // => "Duh!"
      
  (end)
-*/
+end*/
 
 var Stating = (function(){
    // Do whatever you want here
