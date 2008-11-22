@@ -5,7 +5,7 @@ h2. A Javascript Compendium
 
 bq. This précis aims to become a collection of great reusable self-contained mini-snippets in the artful language that is Javascript.
 
-There are some conventions that I wish to impose on all items added to this collection, but if you just want to skip to a sample, try "the original":http://github.com/quickredfox/quickredfox-presents/tree/master%2Foriginal.js?raw=true
+There are some conventions that I wish to impose on all items added to this collection, but if you just want to skip to a sample, edit/copy/grab  "the original":http://gist.github.com/27628
 
 h3. Comment Conventions ( draft 0.2 )
 
@@ -108,6 +108,8 @@ h1. Documentation
 * <a href="#conversions">Conversions</a>
 
 * <a href="#xhr">Xhr</a>
+
+* <a href="#original_gist">Original > gist</a>
 
 * <a href="#browsers_cookies">Browsers > cookies</a>
 
@@ -279,10 +281,6 @@ p(author). *Author:*
 
     Lee Carmichael lecar_red@yahoo.com
 
-p(blog). *Blog:*
-
-     http://blogs.sun.com/greimer
-
 p(copyright). *Copyright:*
 
 Copyright (c) 2005 Lee Carmichael. All rights reserved.
@@ -322,6 +320,57 @@ p(example). *Example:*
 
 
 p(sourcelink). <small><b>See this file in project @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/file/file.basename.js</a></small>
+
+
+<a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
+
+<hr />
+
+h2. <a name="original_gist">Original > gist</a>
+
+
+
+
+p(author). *Author:*
+
+Author's Name
+
+p(copyright). *Copyright:*
+
+Copyright Notice (optional)
+
+p(license). *License:*
+
+License (optional)
+
+p(source). *Source:*
+
+http://athorshomepage.com/blog (optional)
+
+p(description). *Description:*
+
+
+ 
+     You can enter a description on a separate block
+     as long as it's properly indented like here.
+     
+     A proper description is required!
+     
+
+p(example). *Example:*
+
+
+ <pre style="background:#000;color:#fff;"><code>
+     // In this block, you can also write lots a documentation 
+     // but make sure you've read the size rules
+
+     Stating.the("Obvious") // => "Duh!"
+     
+ </code></pre>
+
+
+
+p(sourcelink). <small><b>See this file in project @ </b><a href="http://github.com/quickredfox/quickredfox-presents/tree/master/original/gist/original.js" >http://github.com/quickredfox/quickredfox-presents/tree/master/original/gist/original.js</a></small>
 
 
 <a href="#shortcuts" >&uarr; shortcuts &uarr;</a>
