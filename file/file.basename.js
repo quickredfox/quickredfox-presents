@@ -1,6 +1,5 @@
 /*comment
  Author:     Lee Carmichael lecar_red@yahoo.com
- Blog:      http://blogs.sun.com/greimer
  Copyright: Copyright (c) 2005 Lee Carmichael. All rights reserved.
  License:   Artistic License
  Source:    http://www.openjsan.org
