@@ -4,13 +4,13 @@
  Copyright: Copyright 2008
  License:   Released under MIT license 
  Source:    http://code.google.com/p/reglib/
- 
+
  Description: 
- 
+
     name: e.g. 'div', 'div.foo', 'div#bar', 'div.foo#bar', 'div#bar.foo'
     atts: (optional) e.g. {'href':'page.html','target':'_blank'}
     content: (optional) either a string, or an element, or an arry of strings or elements
-     
+
  Example:
  (code)
  // example 1
